@@ -4,6 +4,8 @@ Remove all traces of [Graphite](https://graphite.dev) (`gt`) from your system. W
 
 ## What it removes
 
+Graphite be gone.
+
 1. **Per-repo files** — `.git/.graphite_*` (cache, PR info, repo config)
 2. **Global gitconfig** — `[graphite]` section
 3. **Windsurf rules** — `example/.windsurf/rules/graphite.md`
