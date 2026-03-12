@@ -83,7 +83,7 @@ def main [
     } else {
       rm $windsurf_rule
       print $"  (ansi green)removed(ansi reset) ~/repos/ismar.ch/.windsurf/rules/graphite.md"
-      print $"  (ansi dim)note: commit this removal in the ismar.ch repo(ansi reset)"
+      print $"  (ansi faint)note: commit this removal in the ismar.ch repo(ansi reset)"
     }
     $stats.windsurf_rule = true
   } else {
