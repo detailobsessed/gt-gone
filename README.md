@@ -6,7 +6,7 @@ Remove all traces of [Graphite](https://graphite.dev) (`gt`) from your system. W
 
 1. **Per-repo files** — `.git/.graphite_*` (cache, PR info, repo config)
 2. **Global gitconfig** — `[graphite]` section
-3. **Windsurf rule** — `ismar.ch/.windsurf/rules/graphite.md`
+3. **Windsurf rules** — `example/.windsurf/rules/graphite.md`
 4. **Homebrew** — `graphite` formula + `withgraphite/tap` (leaves `graphite2` font library untouched)
 
 ## Usage
